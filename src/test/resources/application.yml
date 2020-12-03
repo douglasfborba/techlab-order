@@ -1,0 +1,12 @@
+amazon:
+  defaultRegion: us-east-2
+  dynamodb:
+    endpoint: http://localhost:8150
+
+featureToggle:
+  useLocalEndpoint: true
+
+mqtt:
+  host-url: tcp://test.mosquitto.org:1883
+  default-topic: techlab_sapphire_cd_2020
+  clientID: techlab-sapphire
