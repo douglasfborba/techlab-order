@@ -5,6 +5,8 @@ pipeline {
     environment {
         JENKINS_TOKEN = credentials('docker-hub-jenkins-token')
         APP_TOKEN = credentials('docker-hub-app-token')
+        PROD_SERVER = credentials('techlab-prod-server')
+        REGISTRY_USERNAME = credentials('docker-hub-username')
     }
     
     stages {
